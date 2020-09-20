@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>top arrow</title>
+</head>
+<style>
+  #topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+</style>
+
+<body>
+
+<section>
+  
+</section>
+
+<p>aofijf</p><br><br><br><br><br><br>
+<p>aofijf</p><br><br><br><br><br><br>
+<p>aofijf</p><br><br><br><br><br><br>
+<p>aofijf</p><br><br><br><br><br><br>
+<p>aofijf</p><br><br><br><br><br><br>
+<p>aofijf</p><br><br><br><br><br><br>
+
+<button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+
+<script>
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      if((ssthis).scrollTop() > 40){
+        $('#topBtn').fadeIn();
+      }
+        else
+        {
+          $('#topBtn').fadeIn();
+        } 
+    });
+
+    $("#topBtn").click(function(){
+      $('html ,body').animate({scrollTop : 0},800);
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>	
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<!-- <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script> -->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<title>Contact us page</title>
+
+<style>
+	font-family: 'Roboto', sans-serif;
+
+body {
+  background: #D9B280;
+/*  font-family: "Roboto", sans-serif;*/
+}
+
+
+.map .container {
+  background: #FFFFFF;
+  width: 900px;
+  height: 650px;
+  margin: 5% auto;
+  position: relative;
+}
+.map .container .map {
+  width: 45%;
+  float: left;
+}
+.map .container .contact-form {
+  width: 53%;
+  margin-left: 2%;
+  float: left;
+}
+.map .container .contact-form .title {
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #242424;
+  margin: 5% 8%;
+}
+.map .container .contact-form .subtitle {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 4% 5% 8%;
+}
+.map .container .contact-form input,
+.map .container .contact-form textarea {
+  width: 330px;
+  padding: 3%;
+  margin: 2% 8%;
+  color: #242424;
+  border: 1px solid #B7B7B7;
+}
+.map .container .contact-form input::placeholder,
+.map .container .contact-form textarea::placeholder {
+  color: #242424;
+}
+.map .container .contact-form .btn-send {
+  background: #A383C9;
+  width: 180px;
+  height: 60px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin: 2% 8%;
+  border: none;
+}
+
+
+.social .fa {
+  padding: 15px;
+  font-size: 25px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.social .fa:hover {
+    opacity: 0.7;
+}
+.social .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.social .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.social .fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.social .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+</style>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+  <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-between" id="nav"> 
+    <ul class="navbar-nav">
+      <li class="nav-item" >
+        <a class="nav-link text-light font-weight-bold px-3" href="index.html">HOME</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link text-light font-weight-bold px-3 dropdown-toggle" data-toggle="dropdown" href="#">FASHION & WEAR</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="ethnic.html">ETHNIC WEAR</a>
+            <a class="dropdown-item" href="kurti.html">KURTI</a>
+            <a class="dropdown-item" href="night.html">NIGHT WEAR</a>
+            <a class="dropdown-item" href="portfolio.html">PORTFOLIO</a>
+            <a class="dropdown-item" href="shirts_jeans.html">SHIRTS JEANS</a>
+            <a class="dropdown-item" href="swim.html">SWIM WEAR</a>
+          </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light font-weight-bold px-3" href="about.html">ABOUT US</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link text-light font-weight-bold px-3" href="contact.html">CONTACT</a> 
+      </li>
+    </ul>
+
+    <span class="navbar-text">
+      <p style="color:white;font-size:20px;">Yogesh Bhatangar Photograher</p> 
+    </span>
+  </div>
+</nav>
+<br><br><br><br>
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+</style> 
+
+<div class="map">
+<div class="container">
+	<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.544778284992!2d72.85438185007706!3d19.171393786969592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7abc570301d%3A0x51df758c3530f6e9!2sStudio+Neelanz+-+Yogesh+Bhatnagar!5e0!3m2!1sen!2sin!4v1564600673870!5m2!1sen!2sin" width="100%" height="730px" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+	</div>
+	<div class="contact-form">
+<!-- 		<h1 class="title">Contact Us</h1> -->
+
+    <div class="alert alert-info text-dark">
+      <center>
+        <strong>Contact Us</strong>
+      </center>
+  </div>
+
+		<h2 class="subtitle">We are here assist you.</h2>
+		<form action="contact.php" method="post">
+			<input type="text" name="firstname" placeholder="First Name" />
+			<input type="text" name="lastname" placeholder="Last Name" />
+			<input type="email" name="email" placeholder="Your E-mail Adress" />
+			<input type="tel" name="phone" placeholder="Your Phone Number"/>
+			<textarea name="message" id="" rows="8" placeholder="Your Message"></textarea>
+			<button class="btn-send">Get a Call Back</button>
+		</form>
+	</div>
+</div>
+</div>
+<br>
+
+<hr color="black">
+
+<footer  style="background-color: #2c292f">
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-4 text-center text-md-left ">        
+        <div class="py-0">
+          <h3 class="my-4 text-white">About<span class="mx-2 font-italic text-warning ">Photography</span></h3>
+                        <p class="footer-links font-weight-bold">
+              <a class="text-white" href="about.html">About</a>
+                            |
+                            <a class="text-white" href="contact.html">Contact Us</a>
+                            |
+                            <a class="text-white" href="terms.html">Terms</a>
+                            |
+                            <a class="text-white" href="developer/web.html">Website Developer</a>>
+                        </p>
+                      <p class="text-light py-4 mb-4">&copy;2019 Yegesh Bhatanagar Photographer......... All Copyrights Reserved.</p>
+                    </div>
+                </div>
+                
+      <div class="col-md-4 text-white text-center text-md-left ">
+        <div class="py-2 my-4">
+          <div>
+            <p class="text-white">
+              <i class="fa fa-map-marker mx-2 "></i>
+              55, Hanuman Tekdi, Goregaon, Mumbai, Maharashtra - 400063
+            </p>  
+          </div>
+
+          <div> 
+            <p>
+              <i class="fa fa-phone  mx-2 "></i>
+              +91 8796138807
+            </p>
+          </div>
+          <div>
+            <p>
+              <i class="fa fa-envelope  mx-2"></i>
+              <a href="mailto:support@eduonix.com">yogesh@gmail.com</a>
+            </p>
+          </div>  
+        </div>  
+      </div>
+
+      <div class="col-md-4 text-white my-4 text-center text-md-left ">
+        <span class=" font-weight-bold ">About the Company</span>
+          <p class="text-warning my-2" >We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+                    <div class="py-2">
+            <div class="social">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-youtube"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            </div>
+                    </div>
+      </div>
+    </div>  
+  </div>
+</footer>
+
+</body> 
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Popup</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor="pink">
+
+<div class="container">
+	<h1>Popup Login</h1>
+	<a href="#" class="button" id="button">Login</a>	
+</div>
+
+<div class="popup">
+	<div class="popup-content">
+		<div class="header">
+  			<h1>SEND ENQUIRY</h1>
+		</div>
+		<h3>SEND A MESSAGE</h3>
+		<p>Please submit your requirements to us. You will receive the photographer's contact details via email or send sms shortly.</p>
+
+		<img src="close.png" alt="close" class="close">
+<!-- 		<img src="enquiry.png" alt="user" class="enquiry"> -->
+
+		<input type="text" placeholder="Full Name" required>
+		<input type="email" placeholder="Email ID" required>
+		<input type="number" placeholder="Mobile Number" required>
+		<input type="date" placeholder="Event Date" required>
+		<input type="text" placeholder="Event Location">
+		<input type="text" placeholder="Event Type" required>
+		<input type="textarea" placeholder="Message (optional)">
+
+		<a href="#" class="button">Login</a>
+	</div>
+</div>
+
+<script>
+	document.getElementById("button").addEventListener("click", function(){
+		document.querySelector(".popup").style.display = "flex";
+	})
+
+	document.querySelector(".close").addEventListener("click",function(){
+		document.querySelector(".popup").style.display = "none";
+	})
+</script>
+
+</body>
+</html>
